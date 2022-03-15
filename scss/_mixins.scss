@@ -1,0 +1,11 @@
+@mixin flexStyle($al-items, $just-content) {
+  display: flex;
+  align-items: $al-items;
+  justify-content: $just-content;
+}
+
+@mixin linkStyle($text-dec, $font-size, $color) {
+  text-decoration: $text-dec;
+  font-size: $font-size;
+  color: $color;
+}

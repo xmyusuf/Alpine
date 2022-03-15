@@ -1,0 +1,78 @@
+// .site-main {
+//   background: linear-gradient(180deg, rgba(50, 42, 39, 0) 0%, rgba(45, 40, 40, 0.85) 33.85%, #2D2828 49.48%, #2D2828 68.75%, #2D2828 82.29%, #2D2828 100%);
+//   border: 1px solid rgba(255, 255, 255, 0.2);
+//   box-sizing: border-box;
+//   box-shadow: -15px 0px 15px rgba(0, 0, 0, 0.3);
+// }
+
+.hero {
+
+  &__wrapper {
+    width: 994px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 65px;
+    padding-bottom: 79px;
+    padding-top: 76px;
+  }
+
+  &__heading {
+    margin: 0;
+    font-family: "Paytone One";
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 89px;
+    color: $whiteColor;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    font-family: "Paytone One";
+    font-weight: 400;
+    font-size: 20px;
+    color: $whiteColor;
+  }
+
+  &__content {
+    width: 432px;
+    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: $whiteColor;
+  }
+
+  &__input {
+    width: 291px;
+    height: 36px;
+    padding-left: 35px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50px;
+    font-family: "Pavanam";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.4);
+    background-color: transparent;
+  }
+
+  &__btn {
+    padding: 9px 21px ;
+    margin-left: 20px;
+    border: 2px solid rgb(255, 22, 64);
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: transparent;
+    font-family: "Pavanam";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.4);
+  }
+}

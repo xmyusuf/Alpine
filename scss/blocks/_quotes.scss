@@ -1,0 +1,16 @@
+.quotes {
+  @include flexStyle(center, space-between)
+}
+
+.quotes__inner {
+  @include flexStyle(center, flex-start)
+}
+
+.quotes__quote {
+  margin: 0;
+  padding: 0;
+}
+
+.quotes__content-img {
+  margin-bottom: 22px;
+}

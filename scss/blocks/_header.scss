@@ -1,0 +1,32 @@
+.header {
+  height: 788px;
+  background-image: url(../../images/site-bgimage.png);
+  background-size: cover, 788px;
+  background-repeat: no-repeat;
+  background-position: calc(50%) 0px;
+}
+
+.header__wrap {
+  @include flexStyle(center, flex-start);
+  padding-top: 40px;
+
+  .nav__list {
+    @extend %list-no-style;
+    @include flexStyle (center, felx-start);
+  }
+
+  .nav__item ~ .nav__item {
+    margin-left: 30px;
+  }
+
+  .nav__link {
+    @include linkStyle(none, 18px, $whiteColor);
+  }
+
+  .logo-link {
+    margin-right: 70px;
+    font-family: "Paytone One";
+    font-weight: 400;
+    font-size: 18px;
+  }
+}
