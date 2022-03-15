@@ -766,6 +766,8 @@ body {
   width: 842px;
   margin-right: auto;
   margin-left: auto;
+  -webkit-transform: translateY(-550px);
+          transform: translateY(-550px);
 }
 
 .logos__wrapper {
